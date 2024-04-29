@@ -1,0 +1,96 @@
+ body{
+    background-color: #1d2530;
+    color: azure;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+
+.navbar {
+    background-color: #1d2530 !important;
+}
+
+/* form h1.yellow-underline {
+  color: yellow;
+  te
+  
+  
+  xt-decoration: underline !important;
+} */
+/* hammersmith font  */
+.hammersmith-one-regular {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.input-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  outline: none;
+  background-color: transparent;
+}
+
+.input-container label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  pointer-events: none;
+  transition: 0.3s;
+  color: #aaa;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+  top: -20px;
+  font-size: 14px;
+  color: #aaa; /* Change label color on focus */
+}
+
+.input-container input:focus {
+  border-bottom: 2px solid #f8e56f; /* Change bottom line color on focus */
+}
+
+.input-container input:focus + label {
+  color: #f8e56f; /* Change label color on focus */
+  font-weight: bold;
+}
+
+/* Additional styles for select element */
+.input-container select {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background-color: transparent;
+  color: #1d2530; /* Set default text color */
+  outline: none;
+}
+
+.input-container select:focus {
+  border-bottom: 2px solid #f8e56f;
+  color: #f8e56f; /* Change text color when focused */
+}
+
+/* Style the options */
+.input-container select option {
+  background-color: #1d2530; /* Set background color */
+  color: #fff; /* Set default text color */
+}
+
+.input-container select option:checked {
+  color: #f8e56f; /* Change text color when selected */
+}
+
